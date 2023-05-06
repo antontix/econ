@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Урадовський Антон IE-202">
+<meta name="dcterms.date" content="2023-04-11">
+
+<title>Курсова робота</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Курсова робота_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Курсова робота_files/libs/quarto-html/quarto.js"></script>
+<script src="Курсова робота_files/libs/quarto-html/popper.min.js"></script>
+<script src="Курсова робота_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Курсова робота_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Курсова робота_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Курсова робота_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Курсова робота_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Курсова робота_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Курсова робота_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Зміст</h2>
+   
+  <ul class="collapse">
+  <li><a href="#план-роботи" id="toc-план-роботи" class="nav-link active" data-scroll-target="#план-роботи">План роботи:</a></li>
+  <li><a href="#впорядковування-даних" id="toc-впорядковування-даних" class="nav-link" data-scroll-target="#впорядковування-даних">Впорядковування даних</a></li>
+  <li><a href="#про-датасет-та-пояснення-змінних" id="toc-про-датасет-та-пояснення-змінних" class="nav-link" data-scroll-target="#про-датасет-та-пояснення-змінних">Про датасет та пояснення змінних</a></li>
+  <li><a href="#множинна-лінійна-регресія" id="toc-множинна-лінійна-регресія" class="nav-link" data-scroll-target="#множинна-лінійна-регресія">Множинна лінійна регресія</a>
+  <ul class="collapse">
+  <li><a href="#модель-зі-всіма-змінними" id="toc-модель-зі-всіма-змінними" class="nav-link" data-scroll-target="#модель-зі-всіма-змінними">Модель зі всіма змінними</a></li>
+  <li><a href="#модель-для-дослідження-впливу-соціальної-підтримки-очікуваною-тривалість-життя-та-свободи-у-прийнятті-рішень" id="toc-модель-для-дослідження-впливу-соціальної-підтримки-очікуваною-тривалість-життя-та-свободи-у-прийнятті-рішень" class="nav-link" data-scroll-target="#модель-для-дослідження-впливу-соціальної-підтримки-очікуваною-тривалість-життя-та-свободи-у-прийнятті-рішень">Модель для дослідження впливу соціальної підтримки, очікуваною тривалість життя та свободи у прийнятті рішень</a></li>
+  </ul></li>
+  <li><a href="#візуальний-аналіз-даних-на-наявність-гетероскедастичності" id="toc-візуальний-аналіз-даних-на-наявність-гетероскедастичності" class="nav-link" data-scroll-target="#візуальний-аналіз-даних-на-наявність-гетероскедастичності">Візуальний аналіз даних на наявність гетероскедастичності</a>
+  <ul class="collapse">
+  <li><a href="#візуалізаця-відхилення-моделі-з-усіма-змінними" id="toc-візуалізаця-відхилення-моделі-з-усіма-змінними" class="nav-link" data-scroll-target="#візуалізаця-відхилення-моделі-з-усіма-змінними">Візуалізаця відхилення моделі з усіма змінними</a></li>
+  <li><a href="#візуалізаця-моделі-з-кількома-змінними" id="toc-візуалізаця-моделі-з-кількома-змінними" class="nav-link" data-scroll-target="#візуалізаця-моделі-з-кількома-змінними">Візуалізаця моделі з кількома змінними</a></li>
+  </ul></li>
+  <li><a href="#тестування-гетероскедастичності" id="toc-тестування-гетероскедастичності" class="nav-link" data-scroll-target="#тестування-гетероскедастичності">Тестування гетероскедастичності</a>
+  <ul class="collapse">
+  <li><a href="#тест-гольдфельда-квандтаg-q" id="toc-тест-гольдфельда-квандтаg-q" class="nav-link" data-scroll-target="#тест-гольдфельда-квандтаg-q">Тест Гольдфельда-Квандта(G-Q)</a></li>
+  <li><a href="#тест-уайта" id="toc-тест-уайта" class="nav-link" data-scroll-target="#тест-уайта">Тест Уайта</a></li>
+  <li><a href="#тест-бройша-пагана" id="toc-тест-бройша-пагана" class="nav-link" data-scroll-target="#тест-бройша-пагана">Тест Бройша-Пагана</a></li>
+  </ul></li>
+  <li><a href="#спроба-покращити-модель" id="toc-спроба-покращити-модель" class="nav-link" data-scroll-target="#спроба-покращити-модель">Спроба покращити модель</a>
+  <ul class="collapse">
+  <li><a href="#розрахунки-heteroskedasticity-robust-standard-errors" id="toc-розрахунки-heteroskedasticity-robust-standard-errors" class="nav-link" data-scroll-target="#розрахунки-heteroskedasticity-robust-standard-errors">Розрахунки Heteroskedasticity-robust standard errors</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Курсова робота</h1>
+<p class="subtitle lead">Економетрика</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Автор</div>
+    <div class="quarto-title-meta-contents">
+             <p>Урадовський Антон IE-202 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Дата публікації</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 11, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>happiness_ukr <span class="ot">&lt;-</span> happiness <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>(Country.name <span class="sc">==</span> <span class="st">"Ukraine"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>happiness_fin <span class="ot">&lt;-</span> happiness <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>(Country.name <span class="sc">==</span> <span class="st">"Finland"</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="план-роботи" class="level1">
+<h1>План роботи:</h1>
+<ul>
+<li><p>Вступ</p></li>
+<li><p>Побудова множинної лінійної регресії . Порівняння моделей та перевірка.</p></li>
+<li><p>Перевірка на гетероскедастичність</p></li>
+</ul>
+</section>
+<section id="впорядковування-даних" class="level1">
+<h1>Впорядковування даних</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2023</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>happiness1 <span class="ot">&lt;-</span> happiness <span class="sc">%&gt;%</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_sample</span>(<span class="at">n =</span> <span class="dv">100</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">c</span>(Country.name,Regional.indicator,Standard.error.of.ladder.score,upperwhisker, lowerwhisker , Explained.by..Log.GDP.per.capita, Dystopia...residual, Explained.by..Perceptions.of.corruption, Explained.by..Generosity,Explained.by..Freedom.to.make.life.choices, Explained.by..Healthy.life.expectancy, Explained.by..Social.support,Ladder.score.in.Dystopia ))</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="про-датасет-та-пояснення-змінних" class="level1">
+<h1>Про датасет та пояснення змінних</h1>
+<p>Для цієї роботи я використаю датасет “World Happiness Report 2021” з Kaggle. Це датасет, який містить дані щодо рівня щастя у різних країнах світу за 2021 рік. Це звіт, який оцінює рівень щастя та задоволення життям у країнах світу. Датасет містить дані з 149 країн зібрані в 2021 році, включаючи інформацію про такі показники, як валовий внутрішній продукт на душу населення, соціальна підтримка, очікувана тривалість життя, вільність від корупції та інші. Датасет складається з 20 змінних, серед яких також є і показник щастя, оцінений на основі опитування населення.</p>
+<p>Кожна строка в датасеті відповідає країні, а стовпці містять числові значення показників, оцінені для цієї країни. Датасет є доволі різноманітним і може використовуватися для досліджень з різних галузей</p>
+<p>Розгянемо наш датасет поближче та подивимось за що відповідає кожен стовпчик:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as_tibble</span>(happiness1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 100 × 7
+   Ladder.score Logged.GDP.per.capita Social.support Healthy.life.expectancy
+          &lt;dbl&gt;                 &lt;dbl&gt;          &lt;dbl&gt;                   &lt;dbl&gt;
+ 1         4.72                  7.74          0.724                    52.0
+ 2         4.93                  8.46          0.651                    58.7
+ 3         6.49                 10.7           0.891                    66.6
+ 4         6.17                 10.4           0.898                    69.7
+ 5         5.05                  7.69          0.69                     55.2
+ 6         6.46                 10.5           0.948                    71.4
+ 7         6.06                  9.05          0.762                    66.4
+ 8         4.52                  8.48          0.826                    62.2
+ 9         4.28                  7.69          0.764                    59  
+10         5.58                  9.94          0.858                    68.7
+# ℹ 90 more rows
+# ℹ 3 more variables: Freedom.to.make.life.choices &lt;dbl&gt;, Generosity &lt;dbl&gt;,
+#   Perceptions.of.corruption &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<ul>
+<li><p><em>Основні змінні у датасеті:</em></p>
+<ul>
+<li><p><strong>Country name:</strong> Назва країни.</p></li>
+<li><p><strong>Regional indicator:</strong> Регіональний показник, до якого відноситься країна.</p></li>
+<li><p><strong>Ladder score:</strong> Рівень щастя, оцінений за допомогою “драбини щастя”, де 0 - це “найгірший можливий” рівень щастя, а 10 - це “найкращий можливий” рівень щастя.</p></li>
+<li><p><strong>Standard error of ladder score:</strong> Стандартна помилка оцінки рівня щастя.</p></li>
+<li><p><strong>upperwhisker:</strong> Верхня межа “усів” у відображенні “ящика з вусами” (box plot) для рівня щастя.</p></li>
+<li><p><strong>lowerwhisker:</strong> Нижня межа “усів” у відображенні “ящика з вусами” (box plot) для рівня щастя.</p></li>
+<li><p><strong>Logged GDP per capita:</strong> Логарифм середнього ВВП на душу населення в доларах США за поточних цін.</p></li>
+<li><p><strong>Social support:</strong> Оцінка рівня підтримки, що надається соціальним оточенням, отримана за допомогою запитання: “У разі виникнення труднощів, наскільки Ви можете покластися на соціальне оточення для допомоги?”.</p></li>
+<li><p><strong>Healthy life expectancy:</strong> Оцінка очікуваної тривалості здорового життя.</p></li>
+<li><p><strong>Freedom to make life choices:</strong> Оцінка ступеня свободи вибору життєвого шляху.</p></li>
+<li><p><strong>Generosity:</strong> Оцінка рівня благодійності населення країни.</p></li>
+<li><p><strong>Perceptions of corruption:</strong> Оцінка рівня сприйняття рівня корупції в уряді та відповідних інституціях.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="множинна-лінійна-регресія" class="level1">
+<h1>Множинна лінійна регресія</h1>
+<p>Далі проведемо множинну лінійну регресію, щоб дослідити залежність рівня щастя від декількох факторів. Для цього побудуємо модель з кількома незалежними змінними:</p>
+<section id="модель-зі-всіма-змінними" class="level2">
+<h2 class="anchored" data-anchor-id="модель-зі-всіма-змінними">Модель зі всіма змінними</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>model_mult <span class="ot">&lt;-</span> <span class="fu">lm</span>(Ladder.score <span class="sc">~</span> . , <span class="at">data =</span> happiness1)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_mult)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Ladder.score ~ ., data = happiness1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.79039 -0.32012  0.01862  0.32378  1.06069 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(&gt;|t|)   
+(Intercept)                  -2.36763    0.73698  -3.213  0.00181 **
+Logged.GDP.per.capita         0.25665    0.10457   2.454  0.01598 * 
+Social.support                2.14515    0.78975   2.716  0.00787 **
+Healthy.life.expectancy       0.04049    0.01478   2.739  0.00738 **
+Freedom.to.make.life.choices  1.89066    0.57849   3.268  0.00152 **
+Generosity                    0.55827    0.34411   1.622  0.10811   
+Perceptions.of.corruption    -0.48399    0.36895  -1.312  0.19282   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.5063 on 93 degrees of freedom
+Multiple R-squared:  0.7709,    Adjusted R-squared:  0.7561 
+F-statistic: 52.16 on 6 and 93 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<p>Ми отримали модель лінійної регресії залежності між балами за країнами на щастям (Ladder.score) та іншими факторами: Logged.GDP.per.capita, Social.support, Healthy.life.expectancy, Freedom.to.make.life.choices, Generosity та Perceptions.of.corruption.</p>
+<p>Модель дозволяє нам зробити наступні висновки:</p>
+<ul>
+<li><p>Всі змінні, крім Generosity та Perceptions.of.corruption, мають статистично значимий вплив на Ladder.score.</p></li>
+<li><p>Коефіцієнти Logged.GDP.per.capita, Social.support, Healthy.life.expectancy, та Freedom.to.make.life.choices позитивні, що вказує на те, що зростання цих змінних пов’язано із збільшенням балів за країнами на щастям.</p></li>
+<li><p>Коефіцієнти Generosity та Perceptions.of.corruption не є статистично значимими на рівні значущості 0.05.</p></li>
+<li><p>Модель є значимою (p-value &lt; 2.2e-16) та добре описує дані (Adjusted R-squared: 0.7561). що означає, що ці шість змінних пояснюють більш як 77% варіації відповіді</p>
+<p>Отже, ми можемо використовувати цю модель для прогнозування балів за країнами на щастям на основі інших факторів.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> model_mult, <span class="fu">aes</span>(<span class="at">x =</span> Ladder.score, <span class="at">y =</span> <span class="fu">predict</span>(model_mult))) <span class="sc">+</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape =</span> <span class="dv">20</span>, <span class="at">colour =</span> <span class="st">"red"</span>, <span class="at">size=</span> <span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>, <span class="at">color =</span> <span class="st">"green"</span>) <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Фактичні значення Ladder.score"</span>, <span class="at">y =</span> <span class="st">"Прогнозовані значення Ladder.score"</span>, </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Діаграма розсіювання для моделі множинної лінійної регресії зі всіма змінними"</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Тепер перейдемо до розгляду summary детальніше, а саме до того що вона виводить:</p>
+<p><strong>1). t-критерій</strong> - це статистичний тест, який використовується для оцінки значущості різниці між середніми значеннями двох груп. Зазвичай він використовується для перевірки гіпотез про те, що середнє значення певної змінної в двох групах не відрізняється статистично значимо.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">abs</span>(<span class="fu">qt</span>(<span class="fl">0.05</span>, <span class="dv">93</span>))</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.661404</code></pre>
+</div>
+</div>
+<p>Наш t-критерій дорінює 1.661404. Якщо порівнювати його з нашими значеннями , то бачимо що Generosity та Preceptions.of.corruption незначущо впливають на залежну змінну</p>
+<p><strong>2). F-критерій</strong> - це статистичний тест, який використовується для порівняння середніх значень двох або більше груп в числовій шкалі. Він порівнює змінні між групами та змінні всередині групи, щоб визначити, чи є статистично значущими відмінності між групами. F-критерій обчислює відношення між дисперсією міжгрупових відмінностей до дисперсії внутрішньогрупових відмінностей</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pf</span>(<span class="fl">52.16</span>, <span class="dv">6</span>, <span class="dv">93</span>, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.204581e-27</code></pre>
+</div>
+</div>
+<p>Отримане значення p-value менше за 0.05, тому ми можемо відхилити нульову гіпотезу про те, що всі коефіцієнти регресії дорівнюють нулю. Це означає, що модель є значущою, тобто є достатньо даних, щоб стверджувати, що залежність між змінними існує.</p>
+<p><strong>3). Довірчі інтервали</strong> - це інтервал значень, що включає параметр популяції з певною ймовірністю (довірчою ймовірністю), яка визначається дослідником. Зазвичай використовуються довірчі інтервали для параметрів, таких як середнє значення або різниця між середніми значеннями двох груп в різних вибірках.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">confint</span>(model_mult)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                   2.5 %      97.5 %
+(Intercept)                  -3.83113495 -0.90412781
+Logged.GDP.per.capita         0.04899082  0.46430493
+Social.support                0.57685980  3.71343556
+Healthy.life.expectancy       0.01113618  0.06984381
+Freedom.to.make.life.choices  0.74190680  3.03942094
+Generosity                   -0.12506207  1.24159468
+Perceptions.of.corruption    -1.21666382  0.24867779</code></pre>
+</div>
+</div>
+<p>Для коефіцієнтів, таких як Intercept, Generosity та Perceptions.of.corruption, довірчі інтервали містять нуль. Це означає, що з високою вірогідністю (95%), реальне значення цих коефіцієнтів може дорівнювати нулю, тому вони можуть не бути значущими в моделі. Для всіх інших з високою вірогідністю (95%), реальне значення цих коефіцієнтів не дорівнює нулю і вони є значущими в моделі.</p>
+<p><strong>4). P-value</strong> - це ймовірність того, що спостережувані дані або ще більш екстремальні дані можуть бути випадковими, при умові, що нульова гіпотеза (наприклад, відсутність ефекту) є правильною.Значення <code>p-value</code> дуже мале , що каже про наявний статистично значущий взаємозв’язок між нашими змінними</p>
+<p>Далі дослідимо ще кілька моделей множинної регресії:</p>
+</section>
+<section id="модель-для-дослідження-впливу-соціальної-підтримки-очікуваною-тривалість-життя-та-свободи-у-прийнятті-рішень" class="level2">
+<h2 class="anchored" data-anchor-id="модель-для-дослідження-впливу-соціальної-підтримки-очікуваною-тривалість-життя-та-свободи-у-прийнятті-рішень">Модель для дослідження впливу соціальної підтримки, очікуваною тривалість життя та свободи у прийнятті рішень</h2>
+<p>Перша модель з вибірковими змінними буде досліджувати те як на рівень щастя впливають такі показники як: соціальна підтримка,корупція та свобода вибору</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>model_mult1 <span class="ot">&lt;-</span> <span class="fu">lm</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> happiness1)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_mult1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Ladder.score ~ Social.support + Healthy.life.expectancy + 
+    Freedom.to.make.life.choices, data = happiness1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.71408 -0.30618  0.01487  0.33135  1.30294 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                  -2.78982    0.52491  -5.315 6.93e-07 ***
+Social.support                2.68748    0.70663   3.803 0.000251 ***
+Healthy.life.expectancy       0.06629    0.01159   5.720 1.20e-07 ***
+Freedom.to.make.life.choices  2.34860    0.54527   4.307 3.99e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.5261 on 96 degrees of freedom
+Multiple R-squared:  0.7447,    Adjusted R-squared:  0.7367 
+F-statistic: 93.32 on 3 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<p>З огляду на результати аналізу моделі, можна зробити висновок, що соціальна підтримка, очікувана тривалість життя та свобода у прийнятті рішень мають статистично значимий вплив на рівень щастя національних спільнот. При цьому, збільшення соціальної підтримки на одиницю призводить до зростання рівня щастя на 2.69 бала, збільшення очікуваної тривалості життя на одиницю - на 0.07 бала, а збільшення рівня свободи у прийнятті рішень - на 2.35 бала.</p>
+<p>Дослідження показує, що боротьба з корупцією та забезпечення прозорості влади може значно покращити якість життя громадян. За кожен додатковий бал на змінну Perceptions.of.corruption, рівень щастя знижується на 1.25 бала.</p>
+<p>Ці результати підтверджують важливість соціальної підтримки, свободи та доступу до якісної медичної допомоги для досягнення високого рівня щастя серед людей. Державні та громадські організації повинні працювати над створенням умов для забезпечення цих факторів у житті громадян, щоб підвищити їхній рівень щастя та покращити якість життя в цілому.</p>
+<p>У нашому випадку, для всіх коефіцієнтів p-значення менше за 0.05, що означає, що ми можемо відхилити нульову гіпотезу та стверджувати, що всі три змінні мають статистично значимий вплив на рівень щастя.Результат F-статистики також є статистично значущим (p &lt; 2.2e-16), що означає, що модель в цілому є значущою. Крім того, в моделі ми маємо множинний коефіцієнт детермінації (multiple R-squared) 0.7447, що означає, що 74.47% варіації залежної змінної (рівня щастя) можна пояснити за допомогою змінних Social.support, Healthy.life.expectancy та Freedom.to.make.life.choices.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> model_mult1, <span class="fu">aes</span>(<span class="at">x =</span> Ladder.score, <span class="at">y =</span> <span class="fu">predict</span>(model_mult1))) <span class="sc">+</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape =</span> <span class="dv">20</span>, <span class="at">colour =</span> <span class="st">"red"</span>, <span class="at">size=</span> <span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>, <span class="at">color =</span> <span class="st">"green"</span>) <span class="sc">+</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Фактичні значення Ladder.score"</span>, <span class="at">y =</span> <span class="st">"Прогнозовані значення Ladder.score"</span>, </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Діаграма розсіювання для моделі множинної лінійної регресії з декількома змінними"</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><strong>1). t-критерій</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">abs</span>(<span class="fu">qt</span>(<span class="fl">0.05</span>, <span class="dv">96</span>))</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1.660881</code></pre>
+</div>
+</div>
+<p>Отриманий результат дорівнює 1.660881. Це означає, що при рівні значимості 0.05 та 96 ступенях свободи, які відповідають нашій моделі, ми використовуємо критичне значення статистики t рівне 1.660881 для визначення значущості коефіцієнтів регресії <strong>2). F-критерій</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pf</span>(<span class="fl">93.32</span>, <span class="dv">3</span>, <span class="dv">96</span>, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.377687e-28</code></pre>
+</div>
+</div>
+<p>Отримане значення p-value менше за 0.05, тому ми можемо відхилити нульову гіпотезу про те, що всі коефіцієнти регресії дорівнюють нулю.</p>
+<p><strong>3). Довірчі інтервали</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">confint</span>(model_mult1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                   2.5 %      97.5 %
+(Intercept)                  -3.83175947 -1.74788085
+Social.support                1.28483750  4.09012438
+Healthy.life.expectancy       0.04328404  0.08928663
+Freedom.to.make.life.choices  1.26625723  3.43095119</code></pre>
+</div>
+</div>
+<p>Довірчі інтервали для всіх коефіцієнтів не містять нуль, що може свідчити про статистичну значущість цих змінних в моделі. <strong>4). P-value</strong></p>
+<p>Значення <code>p-value (&lt;2.2e-16)</code> дуже мале , що каже про наявний статистично значущий взаємозв’язок між нашими змінними</p>
+<p>В результаті можемо зробити висновок , що складно обрати певну модель для використання,адже за графіком краще використати першу модель . Але у другій всі змінні є статистично значущі на відміну від моделі з усіма змінними.Тому пропоную звернутися до аналізу на наявність гетероскедастичності</p>
+</section>
+</section>
+<section id="візуальний-аналіз-даних-на-наявність-гетероскедастичності" class="level1">
+<h1>Візуальний аналіз даних на наявність гетероскедастичності</h1>
+<p>Для початку , дамо визначення <strong>що таке гетероскедастичність.</strong> Гетероскедастичність - це статистичне явище, коли відхилення варіантності різних значень залежної змінної неоднакові при різних значеннях однієї або декількох незалежних змінних. Іншими словами, дисперсія різних значень залежної змінної може бути різною для різних значень незалежної змінної.</p>
+<p>Гетероскедастичність може призвести до неточностей при оцінці параметрів моделі лінійної регресії, таких як коефіцієнти нахилу і перехоплення.</p>
+<section id="візуалізаця-відхилення-моделі-з-усіма-змінними" class="level2">
+<h2 class="anchored" data-anchor-id="візуалізаця-відхилення-моделі-з-усіма-змінними">Візуалізаця відхилення моделі з усіма змінними</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Створення датафрейму для графіка</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>residuals_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">fitted =</span> model_mult<span class="sc">$</span>fitted.values, <span class="at">residual =</span> model_mult<span class="sc">$</span>residuals)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Побудова графіка розкиду залишків з використанням ggplot2</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(residuals_df, <span class="fu">aes</span>(<span class="at">x =</span> fitted, <span class="at">y =</span> residual)) <span class="sc">+</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">color =</span> <span class="st">"#FF69B4"</span>) <span class="sc">+</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Прогнозовані значення Ladder.score"</span>, <span class="at">y =</span> <span class="st">"Залишки моделі"</span>) <span class="sc">+</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="візуалізаця-моделі-з-кількома-змінними" class="level2">
+<h2 class="anchored" data-anchor-id="візуалізаця-моделі-з-кількома-змінними">Візуалізаця моделі з кількома змінними</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>residuals_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">fitted =</span> model_mult1<span class="sc">$</span>fitted.values, <span class="at">residual =</span> model_mult1<span class="sc">$</span>residuals)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Побудова графіка розкиду залишків з використанням ggplot2</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(residuals_df, <span class="fu">aes</span>(<span class="at">x =</span> fitted, <span class="at">y =</span> residual)) <span class="sc">+</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">color =</span> <span class="st">"#116062"</span>) <span class="sc">+</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Прогнозовані значення Ladder.score"</span>, <span class="at">y =</span> <span class="st">"Залишки моделі"</span>) <span class="sc">+</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Після візуалізації , можемо безпосередньо перейти до тестування явища гетероскедастичності</p>
+</section>
+</section>
+<section id="тестування-гетероскедастичності" class="level1">
+<h1>Тестування гетероскедастичності</h1>
+<section id="тест-гольдфельда-квандтаg-q" class="level2">
+<h2 class="anchored" data-anchor-id="тест-гольдфельда-квандтаg-q">Тест Гольдфельда-Квандта(G-Q)</h2>
+<p>це тест на гетероскедастичність, який перевіряє гіпотезу про те, що дисперсія похибок моделі рівномірна на всьому діапазоні значень змінних. Зазвичай тест <strong>GQ</strong> використовується для перевірки гіпотези про гетероскедастичність в регресійній моделі, де він перевіряє, чи можна припустити, що дисперсія похибок не залежить від значень змінної, що використовується для регресії. У разі, якщо тест показує статистично значущі результати, це може свідчити про наявність гетероскедастичності в даних.</p>
+<p>Тест <strong>G-Q</strong> був одним з перших тестів гетероскедастичності (1965)</p>
+<p><strong>Алгоритм виконання тесту G-Q:</strong></p>
+<ol type="1">
+<li><p>Впорядкуємо спостереження за <span class="math inline">\(x\)</span> (який вважаємо призводить до гетероскедастичності)</p></li>
+<li><p>Розділяємо дані на дві групи розміру <span class="math inline">\(n^*\)</span></p>
+<ul>
+<li><span class="math inline">\(G_1\)</span>: перша третина</li>
+<li><span class="math inline">\(G_2\)</span>: остання третина</li>
+</ul></li>
+<li><p>Будуємо окремі регресії <span class="math inline">\(y\)</span> на <span class="math inline">\(x\)</span> для G1 та G2</p></li>
+<li><p>Запиcуємо <span class="math inline">\(RSS_1\)</span> і <span class="math inline">\(RSS_2\)</span></p></li>
+<li><p>Розраховуємо статистику тесту <strong>G-Q</strong></p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>test_GQ <span class="ot">&lt;-</span>  <span class="fu">arrange</span>(happiness1, Social.support)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>test_GQ</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>    Ladder.score Logged.GDP.per.capita Social.support Healthy.life.expectancy
+1          2.523                 7.695          0.463                  52.493
+2          5.045                 8.087          0.489                  54.713
+3          3.600                 6.958          0.537                  57.948
+4          3.615                 7.477          0.540                  55.700
+5          4.107                 7.362          0.569                  54.914
+6          3.819                 8.755          0.603                  60.633
+7          4.355                 7.364          0.619                  48.478
+8          4.289                 8.031          0.626                  57.349
+9          3.849                 7.434          0.630                  51.651
+10         5.342                 8.117          0.636                  58.221
+11         5.074                 7.098          0.641                  53.780
+12         5.306                 8.551          0.644                  50.114
+13         4.934                 8.458          0.651                  58.709
+14         4.607                 8.361          0.688                  60.704
+15         5.051                 7.686          0.690                  55.160
+16         4.596                 9.266          0.691                  67.201
+17         5.025                 8.454          0.693                  64.800
+18         4.721                 9.584          0.710                  66.300
+19         5.132                 8.118          0.710                  59.802
+20         4.723                 7.744          0.724                  51.969
+21         5.088                 8.580          0.727                  57.586
+22         5.030                 8.947          0.728                  58.968
+23         4.759                 8.533          0.740                  50.102
+24         4.854                 9.240          0.746                  60.583
+25         6.061                 9.054          0.762                  66.402
+26         4.275                 7.694          0.764                  59.000
+27         4.395                 9.182          0.767                  67.000
+28         4.308                 9.065          0.770                  50.833
+29         4.852                 9.603          0.776                  59.962
+30         4.426                 8.541          0.779                  59.302
+31         4.636                 7.677          0.781                  56.101
+32         3.467                 9.782          0.784                  59.269
+33         3.512                 7.926          0.787                  48.700
+34         4.227                 8.542          0.795                  57.161
+35         5.283                 9.487          0.799                  67.055
+36         5.845                10.651          0.799                  73.900
+37         6.223                10.576          0.802                  73.898
+38         4.887                 9.342          0.802                  66.005
+39         5.101                 9.693          0.805                  65.474
+40         5.345                 9.365          0.811                  62.236
+41         5.919                 8.648          0.812                  67.300
+42         6.435                 9.053          0.813                  64.958
+43         5.384                10.238          0.817                  67.102
+44         6.372                 9.318          0.821                  63.813
+45         5.723                10.279          0.823                  72.600
+46         4.517                 8.485          0.826                  62.250
+47         5.410                 9.622          0.827                  62.300
+48         3.658                 7.578          0.832                  57.122
+49         6.140                10.284          0.832                  67.355
+50         5.171                 9.569          0.836                  65.656
+51         6.012                 9.557          0.847                  68.001
+52         5.411                 8.973          0.850                  68.034
+53         5.545                 9.802          0.853                  66.102
+54         5.766                 9.454          0.857                  65.699
+55         5.581                 9.940          0.858                  68.699
+56         4.956                 9.403          0.860                  56.904
+57         4.892                 9.073          0.861                  66.700
+58         5.972                 8.620          0.864                  67.657
+59         5.813                 9.590          0.870                  68.098
+60         6.078                 9.787          0.873                  68.600
+61         6.309                 9.186          0.877                  67.500
+62         6.483                10.623          0.880                  73.800
+63         6.172                10.071          0.882                  70.000
+64         5.940                10.611          0.884                  75.100
+65         5.985                 9.805          0.888                  67.401
+66         4.875                 9.436          0.888                  64.902
+67         6.494                10.743          0.891                  66.603
+68         5.653                 9.448          0.893                  65.900
+69         5.744                 8.538          0.893                  64.401
+70         6.166                10.382          0.898                  69.702
+71         6.584                10.871          0.898                  69.600
+72         5.929                 9.962          0.898                  69.000
+73         5.477                10.189          0.903                  64.703
+74         6.049                10.008          0.905                  66.701
+75         6.834                10.823          0.906                  72.199
+76         6.377                11.488          0.915                  76.953
+77         6.179                 8.836          0.918                  65.255
+78         6.951                11.023          0.920                  68.200
+79         5.882                10.217          0.924                  70.799
+80         6.431                 9.966          0.925                  69.100
+81         6.032                10.315          0.927                  67.100
+82         5.266                10.016          0.931                  67.000
+83         6.602                10.674          0.931                  72.200
+84         6.491                10.571          0.932                  74.700
+85         7.064                10.707          0.934                  72.500
+86         7.268                10.906          0.934                  73.300
+87         5.677                 9.400          0.935                  62.500
+88         6.255                10.499          0.935                  67.906
+89         6.331                10.369          0.936                  69.201
+90         7.157                10.575          0.939                  73.503
+91         6.189                10.481          0.941                  68.800
+92         6.690                10.704          0.942                  74.000
+93         7.571                11.117          0.942                  74.400
+94         5.992                10.358          0.943                  68.000
+95         6.965                10.556          0.947                  70.807
+96         6.461                10.529          0.948                  71.400
+97         7.277                10.643          0.948                  73.400
+98         6.152                10.155          0.952                  65.200
+99         7.620                10.933          0.954                  72.700
+100        7.554                10.878          0.983                  73.000
+    Freedom.to.make.life.choices Generosity Perceptions.of.corruption
+1                          0.382     -0.102                     0.924
+2                          0.757     -0.034                     0.661
+3                          0.780      0.038                     0.729
+4                          0.593      0.422                     0.721
+5                          0.619      0.032                     0.772
+6                          0.893      0.089                     0.774
+7                          0.579      0.041                     0.807
+8                          0.548      0.082                     0.781
+9                          0.717      0.084                     0.866
+10                         0.695     -0.068                     0.745
+11                         0.806      0.018                     0.693
+12                         0.741     -0.016                     0.794
+13                         0.726      0.098                     0.787
+14                         0.779      0.287                     0.825
+15                         0.697      0.424                     0.746
+16                         0.656     -0.201                     0.870
+17                         0.877     -0.041                     0.682
+18                         0.608      0.218                     0.714
+19                         0.695     -0.046                     0.801
+20                         0.697     -0.036                     0.827
+21                         0.807      0.123                     0.848
+22                         0.910      0.123                     0.658
+23                         0.737      0.037                     0.878
+24                         0.630     -0.053                     0.875
+25                         0.888     -0.110                     0.688
+26                         0.752      0.082                     0.761
+27                         0.755     -0.167                     0.705
+28                         0.647     -0.185                     0.708
+29                         0.731     -0.200                     0.840
+30                         0.876      0.509                     0.660
+31                         0.709      0.122                     0.855
+32                         0.824     -0.246                     0.801
+33                         0.715     -0.131                     0.915
+34                         0.561     -0.106                     0.731
+35                         0.825     -0.168                     0.629
+36                         0.672     -0.083                     0.727
+37                         0.763     -0.015                     0.844
+38                         0.480     -0.067                     0.752
+39                         0.751      0.038                     0.905
+40                         0.873      0.542                     0.867
+41                         0.857      0.081                     0.809
+42                         0.906     -0.038                     0.775
+43                         0.895      0.125                     0.839
+44                         0.869      0.257                     0.917
+45                         0.582     -0.288                     0.823
+46                         0.653     -0.163                     0.821
+47                         0.771     -0.087                     0.667
+48                         0.602     -0.147                     0.800
+49                         0.845     -0.219                     0.938
+50                         0.814     -0.223                     0.506
+51                         0.837     -0.135                     0.841
+52                         0.940     -0.098                     0.796
+53                         0.860     -0.133                     0.714
+54                         0.822     -0.079                     0.918
+55                         0.708     -0.034                     0.812
+56                         0.749     -0.067                     0.860
+57                         0.615     -0.169                     0.827
+58                         0.836      0.020                     0.664
+59                         0.706      0.113                     0.931
+60                         0.778      0.002                     0.835
+61                         0.890     -0.137                     0.884
+62                         0.693     -0.084                     0.866
+63                         0.742     -0.044                     0.830
+64                         0.796     -0.258                     0.638
+65                         0.884      0.287                     0.895
+66                         0.724     -0.011                     0.924
+67                         0.877     -0.149                     0.684
+68                         0.876      0.028                     0.882
+69                         0.935      0.119                     0.908
+70                         0.841     -0.165                     0.735
+71                         0.784     -0.070                     0.721
+72                         0.828     -0.182                     0.834
+73                         0.718     -0.111                     0.845
+74                         0.867     -0.054                     0.789
+75                         0.783     -0.153                     0.646
+76                         0.927     -0.018                     0.082
+77                         0.970      0.311                     0.515
+78                         0.837      0.098                     0.698
+79                         0.754     -0.118                     0.939
+80                         0.896     -0.092                     0.590
+81                         0.715     -0.162                     0.800
+82                         0.788     -0.096                     0.932
+83                         0.927      0.133                     0.653
+84                         0.761     -0.081                     0.745
+85                         0.859      0.233                     0.459
+86                         0.908      0.042                     0.481
+87                         0.708      0.116                     0.856
+88                         0.773     -0.203                     0.826
+89                         0.766     -0.124                     0.911
+90                         0.800      0.031                     0.753
+91                         0.909     -0.106                     0.527
+92                         0.822     -0.147                     0.571
+93                         0.919      0.025                     0.292
+94                         0.755     -0.186                     0.876
+95                         0.858     -0.208                     0.868
+96                         0.949     -0.101                     0.806
+97                         0.929      0.134                     0.242
+98                         0.853     -0.069                     0.733
+99                         0.946      0.030                     0.179
+100                        0.955      0.160                     0.673</code></pre>
+</div>
+</div>
+<p>Переоцінюємо модель для останніх і перших 37 спостережень</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Робимо 2 окремі регресії</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>m_GQ1 <span class="ot">&lt;-</span>  <span class="fu">lm</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> <span class="fu">tail</span>(test_GQ, <span class="dv">37</span>))</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>m_GQ2 <span class="ot">&lt;-</span>  <span class="fu">lm</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices  , <span class="at">data =</span> <span class="fu">head</span>(test_GQ, <span class="dv">37</span>))</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Беремо залишки від кожної регресії</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>m_GQ1 <span class="ot">&lt;-</span> <span class="fu">residuals</span>(m_GQ1)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>m_GQ2 <span class="ot">&lt;-</span> <span class="fu">residuals</span>(m_GQ2)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Розраховуємо SSE для кожної з моделей</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>sse_model1 <span class="ot">=</span> <span class="fu">sum</span>(m_GQ1<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>sse_model1</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5.007286</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>sse_model2 <span class="ot">=</span> <span class="fu">sum</span>(m_GQ2<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>sse_model2</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 13.03728</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">#G-Q статистика</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>(<span class="at">f_gq =</span> sse_model2<span class="sc">/</span>sse_model1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.603663</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">#p-value</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">pf</span>(<span class="at">q =</span> f_gq, <span class="at">df1 =</span> <span class="dv">47-3</span>, <span class="at">df2 =</span> <span class="dv">47-3</span>, <span class="at">lower.tail =</span> F)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.0009715159</code></pre>
+</div>
+</div>
+<p>За результатами тесту Гольфреда-Квандта отримана статистика GQ = 2.603663 зі значенням p-value=0.0009715159, що менше за рівень значущості 0.05. Це означає, що гетероскедастичність є статистично значущою. З цього можна зробити висновок, що при оцінці моделі варто використовувати методи, що враховують гетероскедастичність, наприклад, робастні стандартні помилки або використання ваг в моделі.</p>
+</section>
+<section id="тест-уайта" class="level2">
+<h2 class="anchored" data-anchor-id="тест-уайта">Тест Уайта</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">white</span>(model_mult1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 5
+  statistic p.value parameter method       alternative
+      &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;      
+1      15.1  0.0195         6 White's Test greater    </code></pre>
+</div>
+</div>
+<p>Тест Уайта використовується для перевірки наявності гетероскедастичності в оцінках моделі. Результат тесту показав значення статистики 15.1 та p-value 0.0195, що свідчить про наявність гетероскедастичності в оцінках моделі на рівні значущості 0.05.</p>
+</section>
+<section id="тест-бройша-пагана" class="level2">
+<h2 class="anchored" data-anchor-id="тест-бройша-пагана">Тест Бройша-Пагана</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">bptest</span>(model_mult1)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    studentized Breusch-Pagan test
+
+data:  model_mult1
+BP = 12.961, df = 3, p-value = 0.004722</code></pre>
+</div>
+</div>
+<p>Тест Бройша-Пагана використовується для перевірки гіпотези про гомоскедастичність залишків в лінійній регресії.</p>
+<p>У цьому випадку, p-value дорівнює 0.004722, що менше за звичайний рівень значимості 0.05, що свідчить про те, що нульову гіпотезу про гомоскедастичність відхиляють, тобто є докази на те, що в даній моделі є гетероскедастичність.</p>
+<p>Отже, в даному випадку ми можемо вважати, що гетероскедастичність є присутньою і необхідно враховувати її вплив при подальших аналізах і виборі моделі.</p>
+</section>
+</section>
+<section id="спроба-покращити-модель" class="level1">
+<h1>Спроба покращити модель</h1>
+<p>Спочатку спробуємо використати sqrt-специфікацію</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>model_sqrt <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">sqrt</span>(Ladder.score) <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> happiness1)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>(model_sqrt)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = sqrt(Ladder.score) ~ Social.support + Healthy.life.expectancy + 
+    Freedom.to.make.life.choices, data = happiness1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.40455 -0.06171  0.00723  0.07573  0.29415 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                  0.526771   0.115208   4.572 1.44e-05 ***
+Social.support               0.608333   0.155091   3.922 0.000165 ***
+Healthy.life.expectancy      0.014079   0.002543   5.536 2.69e-07 ***
+Freedom.to.make.life.choices 0.519881   0.119676   4.344 3.47e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.1155 on 96 degrees of freedom
+Multiple R-squared:  0.7433,    Adjusted R-squared:  0.7353 
+F-statistic: 92.68 on 3 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>residuals_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">fitted =</span> model_sqrt<span class="sc">$</span>fitted.values, <span class="at">residual =</span> model_sqrt<span class="sc">$</span>residuals)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Побудова графіка розкиду залишків з використанням ggplot2</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(residuals_df, <span class="fu">aes</span>(<span class="at">x =</span> fitted, <span class="at">y =</span> residual)) <span class="sc">+</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Прогнозовані значення Ladder.score"</span>, <span class="at">y =</span> <span class="st">"Залишки моделі"</span>) <span class="sc">+</span></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-26-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">white</span>(model_sqrt)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 5
+  statistic p.value parameter method       alternative
+      &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;      
+1      17.9 0.00657         6 White's Test greater    </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>MLR_log <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">log</span>(Ladder.score) <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> happiness1)</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>(MLR_log)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = log(Ladder.score) ~ Social.support + Healthy.life.expectancy + 
+    Freedom.to.make.life.choices, data = happiness1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.38468 -0.05302  0.00770  0.06022  0.26764 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                  0.093989   0.104310   0.901 0.369814    
+Social.support               0.558399   0.140420   3.977 0.000136 ***
+Healthy.life.expectancy      0.011987   0.002303   5.206  1.1e-06 ***
+Freedom.to.make.life.choices 0.468145   0.108355   4.320  3.8e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.1045 on 96 degrees of freedom
+Multiple R-squared:  0.7341,    Adjusted R-squared:  0.7258 
+F-statistic: 88.33 on 3 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<div class="cell">
+
+</div>
+<section id="розрахунки-heteroskedasticity-robust-standard-errors" class="level2">
+<h2 class="anchored" data-anchor-id="розрахунки-heteroskedasticity-robust-standard-errors">Розрахунки Heteroskedasticity-robust standard errors</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>test_reg <span class="ot">&lt;-</span> <span class="fu">feols</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices , <span class="at">data =</span> happiness1)</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(test_reg, <span class="at">vcov =</span> <span class="st">'hetero'</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>OLS estimation, Dep. Var.: Ladder.score
+Observations: 100 
+Standard-errors: Heteroskedasticity-robust 
+                              Estimate Std. Error  t value   Pr(&gt;|t|)    
+(Intercept)                  -2.789820   0.599060 -4.65699 1.0306e-05 ***
+Social.support                2.687481   0.854584  3.14478 2.2126e-03 ** 
+Healthy.life.expectancy       0.066285   0.012277  5.39923 4.8368e-07 ***
+Freedom.to.make.life.choices  2.348604   0.545925  4.30206 4.0718e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.515441   Adj. R2: 0.736684</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(test_reg, <span class="at">vcov =</span> <span class="st">'iid'</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>OLS estimation, Dep. Var.: Ladder.score
+Observations: 100 
+Standard-errors: IID 
+                              Estimate Std. Error  t value   Pr(&gt;|t|)    
+(Intercept)                  -2.789820   0.524911 -5.31485 6.9273e-07 ***
+Social.support                2.687481   0.706627  3.80325 2.5106e-04 ***
+Healthy.life.expectancy       0.066285   0.011588  5.72035 1.2038e-07 ***
+Freedom.to.make.life.choices  2.348604   0.545267  4.30725 3.9926e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.515441   Adj. R2: 0.736684</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">confint</span>(test_reg)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                   2.5 %      97.5 %
+(Intercept)                  -3.83175947 -1.74788085
+Social.support                1.28483750  4.09012438
+Healthy.life.expectancy       0.04328404  0.08928663
+Freedom.to.make.life.choices  1.26625723  3.43095119</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">confint</span>(test_reg, <span class="at">vcov =</span> <span class="st">'hetero'</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                   2.5 %      97.5 %
+(Intercept)                  -3.97894581 -1.60069452
+Social.support                0.99114486  4.38381701
+Healthy.life.expectancy       0.04191606  0.09065461
+Freedom.to.make.life.choices  1.26495172  3.43225670</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">confint</span>(test_reg, <span class="at">vcov =</span> <span class="st">'iid'</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                   2.5 %      97.5 %
+(Intercept)                  -3.83175947 -1.74788085
+Social.support                1.28483750  4.09012438
+Healthy.life.expectancy       0.04328404  0.08928663
+Freedom.to.make.life.choices  1.26625723  3.43095119</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fixest)</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>test_reg <span class="ot">&lt;-</span> <span class="fu">feols</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> happiness1)</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Get coefficient table with standard errors</span></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>coef_table <span class="ot">&lt;-</span> <span class="fu">tidy</span>(test_reg, <span class="at">vcov =</span> <span class="st">"hetero"</span>)</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot coefficients with error bars</span></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(coef_table, <span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">y =</span> estimate, <span class="at">ymin =</span> estimate <span class="sc">-</span> <span class="dv">2</span><span class="sc">*</span>std.error, <span class="at">ymax =</span> estimate <span class="sc">+</span> <span class="dv">2</span><span class="sc">*</span>std.error)) <span class="sc">+</span></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"#FF69B4"</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>) <span class="sc">+</span></span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="at">width =</span> <span class="fl">0.2</span>) <span class="sc">+</span></span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Regression coefficients with heteroskedasticity-robust standard errors"</span>, </span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Variable"</span>, <span class="at">y =</span> <span class="st">"Coefficient estimate"</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fixest)</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>test_reg <span class="ot">&lt;-</span> <span class="fu">feols</span>(Ladder.score <span class="sc">~</span> Social.support <span class="sc">+</span> Healthy.life.expectancy <span class="sc">+</span> Freedom.to.make.life.choices, <span class="at">data =</span> happiness1)</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Get coefficient table with standard errors</span></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>coef_table <span class="ot">&lt;-</span> <span class="fu">tidy</span>(test_reg, <span class="at">vcov =</span> <span class="st">"iid"</span>)</span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot coefficients with error bars</span></span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(coef_table, <span class="fu">aes</span>(<span class="at">x =</span> term, <span class="at">y =</span> estimate, <span class="at">ymin =</span> estimate <span class="sc">-</span> <span class="dv">2</span><span class="sc">*</span>std.error, <span class="at">ymax =</span> estimate <span class="sc">+</span> <span class="dv">2</span><span class="sc">*</span>std.error)) <span class="sc">+</span></span>
+<span id="cb61-11"><a href="#cb61-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"#116062"</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>) <span class="sc">+</span></span>
+<span id="cb61-12"><a href="#cb61-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="at">width =</span> <span class="fl">0.2</span>) <span class="sc">+</span></span>
+<span id="cb61-13"><a href="#cb61-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb61-14"><a href="#cb61-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Regression coefficients with heteroskedasticity-robust standard errors"</span>, </span>
+<span id="cb61-15"><a href="#cb61-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Variable"</span>, <span class="at">y =</span> <span class="st">"Coefficient estimate"</span>)</span></code><button title="Копіювати" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Курсова-робота_files/figure-html/unnamed-chunk-33-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>З оцінок параметрів моделі та графіку видно, що у порівнянні цих двох оцінок , різниці стандартних помилок є досить значними. Стандартні похибки, отримані з <strong><code>vcov = 'iid'</code></strong> є меншими, ніж ті, що були отримані з <strong><code>vcov = 'hetero'</code></strong>. Це може бути пов’язано з тим, що оцінка коваріаційної матриці за допомогою <strong><code>'hetero'</code></strong> враховує гетероскедастичність даних і зменшує стандартні помилки. У порівнянні з стандартними похибками, отриманими з <strong><code>vcov = 'iid'</code></strong>, стандартні похибки, отримані з <strong><code>'hetero'</code></strong>, більші. Відповідно, статистичні оцінки параметрів моделі, отримані з <strong><code>'hetero'</code></strong>, можуть бути менш точними та менш ефективними.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Скопійовано!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Скопійовано!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
